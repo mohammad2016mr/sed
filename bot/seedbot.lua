@@ -232,32 +232,28 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {172561830,90516804,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
+    about_text = [[Force v2
 An advanced administration bot based on TG-CLI written in Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+sudo bot
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+[ https://telegram.me/Me_Sudo ]
+
+[ https://telegram.me/gpsudo ]
 
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+mahdi
+
+and more
 
 Our channels
-@teleseedch [English]
-@iranseed [persian]
+@force_api_bot [api]
+@forcetg_ch [persian]
 
 Our website 
-http://teleseed.seedteam.org/
+http://forcetg.org/
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -549,12 +545,12 @@ Retireives the group link
 !rules
 Retrieves the chat rules
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|Fwd]
 Lock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: enable strict settings enforcement (violating user will be kicked)*
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict|Fwd]
 Unlock group settings
 *rtl: Delete msg if Right To Left Char. is in name*
 *strict: disable strict settings enforcement (violating user will not be kicked)*
